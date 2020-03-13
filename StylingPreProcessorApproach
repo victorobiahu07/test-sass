@@ -11,7 +11,7 @@ Then"npm run serve" next
 The design is a mock up of an Adobe Xd static wire frame mirroring the screen from the readme provided earlier https://cadent.invisionapp.com/share/CMQTL3U5TBS#/screens   This allows for smooth representation of the original "client" design in terms of desired colors, svg resources, and general layout.
 
 
-#Phase 2: Build
+#Phase 2: Build (Used mixin and automation)
 
 The animation utilizes some JavaScript to control the application of a `show` class on the parent elements making up the sidebar. 
 The other animations and styles were created using Sass  transpiled into CSS using the `style:watch` script written in the package.json file. 
